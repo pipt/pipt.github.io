@@ -26,3 +26,9 @@ ul {
   margin: auto;
 }
 
+pre {
+  padding: 20px;
+  margin: 10px 50px;
+  overflow: scroll;
+  background: #ccc;
+}
