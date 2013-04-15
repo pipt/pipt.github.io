@@ -5,6 +5,11 @@ body {
 h1 {
   font-weight: 300;
   font-size: 32px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-weight: 300;
 }
 
 ul {
@@ -23,7 +28,7 @@ ul {
 
 .container {
   width: 720px;
-  margin: auto;
+  margin: 50px auto;
 }
 
 pre {
