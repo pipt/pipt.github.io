@@ -38,3 +38,7 @@ pre {
   overflow: scroll;
   background: #ccc;
 }
+
+img {
+  margin: 0 50px;
+}

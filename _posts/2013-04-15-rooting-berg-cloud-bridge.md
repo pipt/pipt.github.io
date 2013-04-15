@@ -12,11 +12,7 @@ Remove the rubber feet covering the screws on the bottom of the bridge, then uns
 
 ## Step 2 - Console Access
 
-For this step you'll need some way of connecting your computer to the serial header on the bridge. I used an Arduino Uno board with the reset pin connected to ground to fill in as a USB to serial converter. That looks like this:
-
-TODO - PICTURE
-
-You need to connect like so:
+For this step you'll need some way of connecting your computer to the serial header on the bridge. I used an Arduino Uno board with the reset pin connected to ground to fill in as a USB to serial converter. You need to connect it like so:
 
 Arduino GND -> Bridge GND
 
@@ -26,7 +22,7 @@ Arduino RX -> Bridge TX
 
 The holes on the bridge aren't labelled, so here's an annotated image:
 
-TODO - PICTURE
+![Labelled serial header](/images/serial-header.jpg)
 
 Once the bridge is hooked up, run the following command (substituting in the correct device path for your computer):
 
