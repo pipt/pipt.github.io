@@ -1,3 +1,7 @@
+---
+layout: post
+title: Rooting Your BERG Cloud Bridge
+---
 # Rooting Your BERG Cloud Bridge
 
 WARNING - This will void your warranty, and could completely break your hardware. Proceed at your own risk.
