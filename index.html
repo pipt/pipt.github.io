@@ -3,8 +3,17 @@ layout: default
 title: Pip
 ---
 
-<ul>
-  {% for post in site.posts %}
-    <li><a href="{{ post.url}}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+<div class="index">
+  <h1>I'm Pip</h1>
+
+  <div class="intro">
+    <img src="images/me.jpg">
+    <p>Writing code makes me happy</p>
+  </div>
+
+  <ul>
+    {% for post in site.posts %}
+      <li><a href="{{ post.url}}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
