@@ -14,11 +14,9 @@ Remove the rubber feet covering the screws on the bottom of the bridge, then uns
 
 For this step you'll need some way of connecting your computer to the serial header on the bridge. I used an Arduino Uno board with the reset pin connected to ground to fill in as a USB to serial converter. You need to connect it like so:
 
-Arduino GND -> Bridge GND
-
-Arduino TX -> Bridge RX
-
-Arduino RX -> Bridge TX
+* Arduino GND -> Bridge GND
+* Arduino TX -> Bridge RX
+* Arduino RX -> Bridge TX
 
 The holes on the bridge aren't labelled, so here's an annotated image:
 
