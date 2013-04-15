@@ -8,11 +8,7 @@ WARNING - This will void your warranty, and could completely break your hardware
 
 ## Step 1 - Physical Access
 
-Remove the rubber feet covering the screws on the bottom of the bridge, then unscrew the base plate. Be careful with the screws - I managed to ruin the head of one of them and had to dremel my way in. You should see something like this:
-
-TODO - PICTURE
-
-Highlighted is the serial header we'll be using to get console access.
+Remove the rubber feet covering the screws on the bottom of the bridge, then unscrew the base plate. Be careful with the screws - I managed to ruin the head of one of them and had to dremel my way in.
 
 ## Step 2 - Console Access
 
