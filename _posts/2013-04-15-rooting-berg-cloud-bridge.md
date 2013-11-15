@@ -142,6 +142,12 @@ First of all, remount the root filesystem as read-write:
 Now modify `/etc/sshd_config` to permit remote root login. Change
 `#PermitRootLogin yes` to `PermitRootLogin yes`
 
+> *Update: 15th November 2013*
+> `SpikesDivZero` let me know that Berg no longer includes sshd under
+that name in the stock image. Changing the `NAME` variable in the script
+below to `dropbear` makes things work again.
+
+
 We need an init script to start the SSH daemon. I copied `/etc/init.d/S49ntp` to `/etc/init.d/S48sshd` and made it look like so:
 
     #! /bin/sh
